@@ -55,7 +55,6 @@ const ulPosition = (position, arr) => {
     head1.innerText = "Group Members";
     mainDisplay.appendChild(head1);
     for (let arr of arrs) {
-      console.log(arr)
       if(arr.alumni == "0"){
         let column = document.createElement("div");
         column.setAttribute("class", "col");
